@@ -1,196 +1,710 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<link rel="stylesheet" href="style.css">
-<title>Sally Green — Strategic Book Architect | 2026 Algorithmic Scaling</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Sally Green: Strategic Book Architect specializing in the Debut Scaling Strategy and A10 retail algorithmic alignment for high-caliber authors.">
-</head>
-<body>
+/* ===================================
+   SALLY GREEN - STRATEGIC ARCHITECT
+   Dark Futuristic Royal Theme
+   =================================== */
 
-<div class="container">
-  <header class="header">
-    <div class="logo">SALLY GREEN <span style="font-size: 0.6em; color: #666;">STRATEGIC ARCHITECT</span></div>
-    <nav class="navigation">
-      <a href="#strategy" class="nav-link">The Strategy</a>
-      <a href="#results" class="nav-link">Revenue ROI</a>
-      <a href="#testimonials" class="nav-link">Case Studies</a>
-      <a href="#contact" class="nav-link">Request Audit</a>
-    </nav>
-  </header>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-  <section class="hero-section">
-    <div class="hero-content">
-      <h1 class="hero-heading">Institutionalizing Author Brands via Debut Scaling</h1>
-      <p class="hero-description">
-        I'm <strong>Sally Green</strong>, a Strategic Book Architect. I specialize in <strong>Debut Scaling</strong> and <strong>A10 Algorithmic Alignment</strong>. I don't just market books; I re-engineer their digital metadata to bypass categorical ghosting and maximize organic trajectory for 2026 retail engines.
-      </p>
-      <div class="hero-cta-box" style="margin-top: 2rem;">
-         <a href="#contact" class="form-button" style="text-decoration: none; padding: 1rem 2rem;">Claim Your 90-Second Diagnostic Report →</a>
-      </div>
-      <img src="SG.png" alt="Sally Green" class="hero-image">
-      <div class="hero-badges">
-        <span class="badge">A10 Algorithmic Alignment</span>
-        <span class="badge">Metadata Handshaking</span>
-        <span class="badge">SGE Positioning</span>
-        <span class="badge">ROI Funnel Architecture</span>
-      </div>
-    </div>
-  </section>
+:root {
+  /* Royal Futuristic Palette */
+  --deep-space: #0a0a0f;
+  --void-black: #121218;
+  --royal-purple: #6b46c1;
+  --electric-violet: #8b5cf6;
+  --cyber-gold: #fbbf24;
+  --gold-glow: #f59e0b;
+  --platinum: #e5e7eb;
+  --silver-mist: #9ca3af;
+  --neon-blue: #3b82f6;
+  --dark-slate: #1e1e2e;
+  --accent-pink: #ec4899;
+  
+  /* Gradients */
+  --royal-gradient: linear-gradient(135deg, #6b46c1 0%, #8b5cf6 50%, #a78bfa 100%);
+  --gold-gradient: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  --dark-gradient: linear-gradient(180deg, #0a0a0f 0%, #1e1e2e 100%);
+  
+  /* Typography */
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Rajdhani', sans-serif;
+  --font-accent: 'Space Grotesk', sans-serif;
+}
 
-  <section class="content-section" id="strategy">
-    <div class="section-wrapper">
-      <div class="section-header">
-        <h2 class="section-heading">2026 Scaling Systems</h2>
-        <p class="section-description">Advanced technical solutions designed to remove "Visibility Leaks" and institutionalize your literary legacy.</p>
-      </div>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      <div class="services-grid">
-        <div class="service-item">
-          <div class="service-icon">🏗️</div>
-          <h3 class="service-title">Debut Scaling Strategy</h3>
-          <p class="service-text">The architectural framework for new releases and backlist pivots. We hard-code "Entity-Level" anchors to ensure your book leads its category rather than ghosting in it.</p>
-        </div>
+body {
+  font-family: var(--font-body);
+  background: var(--deep-space);
+  color: var(--platinum);
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+}
 
-        <div class="service-item">
-          <div class="service-icon">🔗</div>
-          <h3 class="service-title">Metadata Handshaking</h3>
-          <p class="service-text">Correcting the silent gap between your digital infrastructure and global retailers to secure the 25% organic ranking boost vital for launch week.</p>
-        </div>
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(ellipse at 20% 20%, rgba(107, 70, 193, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
 
-        <div class="service-item">
-          <div class="service-icon">🛰️</div>
-          <h3 class="service-title">Categorical Re-Indexing</h3>
-          <p class="service-text">Eliminating "Semantic Conflict" and "Noun Ambiguity." We force the A10 engine to stop misclassifying your fiction as technical manuals or static data.</p>
-        </div>
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
 
-        <div class="service-item">
-          <div class="service-icon">📈</div>
-          <h3 class="service-title">ROI Funnel Architecture</h3>
-          <p class="service-text">Converting casual readers into high-value data assets. We build lead-capture ecosystems for future licensing, speaking engagements, and legacy projects.</p>
-        </div>
+/* ===================================
+   HEADER & NAVIGATION
+   =================================== */
 
-        <div class="service-item">
-          <div class="service-icon">📱</div>
-          <h3 class="service-title">Frictionless Conversion</h3>
-          <p class="service-text">Technical audits to eliminate "Mobile Drop-off." We optimize the Instant-Preview tags across your social nodes to reduce buyer fatigue by 40%.</p>
-        </div>
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  background: rgba(18, 18, 24, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(107, 70, 193, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
-        <div class="service-item">
-          <div class="service-icon">⚖️</div>
-          <h3 class="service-title">Authority Protection</h3>
-          <p class="service-text">Protecting your "Professional Split." We manage the handshake between your professional career and your literary entity to ensure brand purity.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background: var(--royal-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px rgba(107, 70, 193, 0.5);
+}
 
-  <section class="results-section" id="results">
-    <div class="section-wrapper">
-      <div class="section-header">
-        <h2 class="section-heading">Forensic ROI Results</h2>
-        <p class="section-description">Verified data-points from authors who have transitioned from "underrated" to "category leader."</p>
-      </div>
+.navigation {
+  display: flex;
+  gap: 2.5rem;
+}
 
-      <div class="author-refs">
-        <h3 class="refs-heading">Featured Legacy Partners</h3>
-        <div class="ref-cards">
-          <div class="ref-card">
-            <div class="ref-author">Donna Leon</div>
-            <img src="Donna.webp" alt="Donna Leon" class="ref-image">
-            <a href="https://www.amazon.com/stores/author/B000APJKYC" target="_blank" class="ref-link">Verified Results →</a>
-          </div>
+.nav-link {
+  font-family: var(--font-accent);
+  color: var(--platinum);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: all 0.3s ease;
+}
 
-          <div class="ref-card">
-            <div class="ref-author">Roisin Meaney</div>
-            <img src="Roisin.webp" alt="Roisin Meaney" class="ref-image">
-            <a href="https://www.amazon.com/stores/author/B001JRTPTK" target="_blank" class="ref-link">Verified Results →</a>
-          </div>
-        </div>
-      </div>
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gold-gradient);
+  transition: width 0.3s ease;
+}
 
-      <div class="results-grid">
-        <div class="result-card">
-          <h3 class="result-heading">Revenue Generation System</h3>
-          <p class="result-subtext">Automated Scaled Funnel</p>
-          <div class="result-metric">£98,627 Attributed Revenue</div>
-          <img src="3.jpeg" alt="Revenue dashboard" class="result-image" onclick="openModal(this)">
-        </div>
+.nav-link:hover {
+  color: var(--cyber-gold);
+}
 
-        <div class="result-card">
-          <h3 class="result-heading">Trajectory Recovery</h3>
-          <p class="result-subtext">A10 Re-Indexing Audit</p>
-          <div class="result-metric">82% Improvement in Organic Discovery</div>
-          <img src="2.jpeg" alt="Engagement analytics" class="result-image" onclick="openModal(this)">
-        </div>
+.nav-link:hover::after {
+  width: 100%;
+}
 
-        <div class="result-card">
-          <h3 class="result-heading">Conversion Stack Success</h3>
-          <p class="result-subtext">Mobile Friction Removal</p>
-          <div class="result-metric">62.56% Engagement • 415K Authority Signals</div>
-          <img src="1.jpeg" alt="Email campaign results" class="result-image" onclick="openModal(this)">
-        </div>
+/* ===================================
+   HERO SECTION
+   =================================== */
 
-        <div class="result-card">
-          <h3 class="result-heading">Sustained Authority</h3>
-          <p class="result-subtext">Long-term Series Momentum</p>
-          <div class="result-metric">27-49% CTR Across Entire Backlist</div>
-          <img src="4.jpeg" alt="Newsletter metrics" class="result-image" onclick="openModal(this)">
-        </div>
-      </div>
-    </div>
-  </section>
+.hero-section {
+  padding: 6rem 3rem;
+  background: var(--dark-gradient);
+  border-bottom: 1px solid rgba(107, 70, 193, 0.2);
+}
 
-  <section class="contact-section" id="contact">
-    <div class="contact-wrapper">
-      <div class="contact-intro">
-        <h2 class="contact-heading">Secure Your Diagnostic Report</h2>
-        <p class="contact-subtext">Identify your "Visibility Leaks" and reclaim your algorithmic trajectory before your next release cycle.</p>
-      </div>
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-      <div class="contact-layout">
-        <div class="contact-details">
-          <div class="detail-box">
-            <div class="detail-icon">✉️</div>
-            <div class="detail-info">
-              <h3>Direct Priority Line</h3>
-              <a href="mailto:greensally239@gmail.com?subject=Diagnostic Report Request" class="ref-email">greensally239@gmail.com</a>
-            </div>
-          </div>
-        </div>
+.hero-heading {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, var(--cyber-gold) 0%, var(--electric-violet) 50%, var(--platinum) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
-        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" id="contactForm">
-          <input type="hidden" name="access_key" value="ee9dc84e-895a-446b-a28e-ba493b79b9cb">
-          <input type="hidden" name="subject" value="New Diagnostic Report Request">
-          
-          <div class="input-group">
-            <input type="text" name="name" placeholder="Author Name / Project Title" required>
-          </div>
+.hero-description {
+  font-family: var(--font-accent);
+  font-size: 1.3rem;
+  color: var(--silver-mist);
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
 
-          <div class="input-group">
-            <input type="email" name="from_email" placeholder="Professional Email Address" required>
-          </div>
+.hero-description strong {
+  color: var(--cyber-gold);
+  font-weight: 600;
+}
 
-          <div class="input-group">
-            <textarea name="message" placeholder="Briefly describe your current release or visibility concern..." rows="6" required></textarea>
-          </div>
+.hero-cta-box {
+  margin: 2rem 0;
+}
 
-          <button type="submit" class="form-button">
-            <span>Request Diagnostic Report</span>
-            <span class="button-icon">→</span>
-          </button>
+.hero-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 3rem auto 2rem;
+  display: block;
+  border: 4px solid var(--royal-purple);
+  box-shadow: 
+    0 0 40px rgba(107, 70, 193, 0.6),
+    0 0 80px rgba(139, 92, 246, 0.3);
+  object-fit: cover;
+}
 
-          <div id="formSuccess" class="alert alert-success">
-            <span class="alert-icon">✓</span> Data received. Your audit will be prioritized.
-          </div>
-          </form>
-      </div>
-    </div>
-  </section>
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
 
-  <footer class="site-footer">
-    <p>&copy; 2026 Sally Green | Strategic Book Architecture. All rights reserved.</p>
-  </footer>
-</div>
-</body>
-</html>
+.badge {
+  font-family: var(--font-accent);
+  background: rgba(107, 70, 193, 0.2);
+  border: 1px solid var(--royal-purple);
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: var(--platinum);
+  box-shadow: 0 0 20px rgba(107, 70, 193, 0.3);
+  transition: all 0.3s ease;
+}
+
+.badge:hover {
+  background: rgba(139, 92, 246, 0.3);
+  border-color: var(--electric-violet);
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+}
+
+/* ===================================
+   CONTENT SECTIONS
+   =================================== */
+
+.content-section,
+.results-section,
+.contact-section {
+  padding: 5rem 3rem;
+}
+
+.content-section {
+  background: var(--void-black);
+  border-bottom: 1px solid rgba(107, 70, 193, 0.2);
+}
+
+.section-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: var(--royal-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.section-description {
+  font-family: var(--font-accent);
+  font-size: 1.2rem;
+  color: var(--silver-mist);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===================================
+   SERVICES GRID
+   =================================== */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.service-item {
+  background: rgba(30, 30, 46, 0.6);
+  border: 1px solid rgba(107, 70, 193, 0.3);
+  border-radius: 15px;
+  padding: 2.5rem;
+  transition: all 0.4s ease;
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--royal-gradient);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 0;
+}
+
+.service-item:hover::before {
+  opacity: 0.1;
+}
+
+.service-item:hover {
+  border-color: var(--electric-violet);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(107, 70, 193, 0.4);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.service-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--cyber-gold);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.service-text {
+  font-family: var(--font-accent);
+  color: var(--silver-mist);
+  line-height: 1.7;
+  font-size: 1.05rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* ===================================
+   RESULTS SECTION
+   =================================== */
+
+.results-section {
+  background: var(--dark-gradient);
+  border-bottom: 1px solid rgba(107, 70, 193, 0.2);
+}
+
+.author-refs {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.refs-heading {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--cyber-gold);
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.ref-cards {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.ref-card {
+  background: rgba(30, 30, 46, 0.6);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.ref-card:hover {
+  border-color: var(--cyber-gold);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(251, 191, 36, 0.3);
+}
+
+.ref-author {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--platinum);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.ref-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 2px solid var(--gold-glow);
+  object-fit: cover;
+}
+
+.ref-link,
+.ref-email {
+  font-family: var(--font-accent);
+  color: var(--cyber-gold);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.ref-link:hover,
+.ref-email:hover {
+  color: var(--gold-glow);
+  text-decoration: underline;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.result-card {
+  background: rgba(30, 30, 46, 0.6);
+  border: 1px solid rgba(107, 70, 193, 0.3);
+  border-radius: 15px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.result-card:hover {
+  border-color: var(--electric-violet);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(107, 70, 193, 0.4);
+}
+
+.result-heading {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--cyber-gold);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.result-subtext {
+  font-family: var(--font-accent);
+  color: var(--silver-mist);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.result-metric {
+  font-family: var(--font-accent);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--electric-violet);
+  margin-bottom: 1.5rem;
+}
+
+.result-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid rgba(107, 70, 193, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.result-image:hover {
+  border-color: var(--electric-violet);
+  box-shadow: 0 5px 20px rgba(107, 70, 193, 0.5);
+}
+
+/* ===================================
+   CONTACT SECTION
+   =================================== */
+
+.contact-section {
+  background: var(--void-black);
+}
+
+.contact-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-heading {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.contact-subtext {
+  font-family: var(--font-accent);
+  font-size: 1.2rem;
+  color: var(--silver-mist);
+}
+
+.contact-layout {
+  display: grid;
+  gap: 3rem;
+}
+
+.contact-details {
+  text-align: center;
+}
+
+.detail-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: rgba(30, 30, 46, 0.6);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 15px;
+  padding: 2rem 3rem;
+  backdrop-filter: blur(10px);
+}
+
+.detail-icon {
+  font-size: 2.5rem;
+}
+
+.detail-info h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--platinum);
+  margin-bottom: 0.5rem;
+}
+
+/* ===================================
+   FORM STYLING
+   =================================== */
+
+.contact-form {
+  background: rgba(30, 30, 46, 0.6);
+  border: 1px solid rgba(107, 70, 193, 0.3);
+  border-radius: 15px;
+  padding: 3rem;
+  backdrop-filter: blur(10px);
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-family: var(--font-accent);
+  font-size: 1rem;
+  background: rgba(10, 10, 15, 0.6);
+  border: 1px solid rgba(107, 70, 193, 0.4);
+  border-radius: 8px;
+  color: var(--platinum);
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: var(--electric-violet);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.input-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-button {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1.2rem 2.5rem;
+  background: var(--gold-gradient);
+  color: var(--deep-space);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 20px rgba(251, 191, 36, 0.3);
+}
+
+.form-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(251, 191, 36, 0.5);
+}
+
+.button-icon {
+  font-size: 1.5rem;
+}
+
+.alert {
+  display: none;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-family: var(--font-accent);
+}
+
+.alert-success {
+  background: rgba(34, 197, 94, 0.2);
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  color: #4ade80;
+}
+
+.alert-icon {
+  margin-right: 0.5rem;
+}
+
+/* ===================================
+   FOOTER
+   =================================== */
+
+.site-footer {
+  background: var(--deep-space);
+  border-top: 1px solid rgba(107, 70, 193, 0.3);
+  padding: 2rem;
+  text-align: center;
+  font-family: var(--font-accent);
+  color: var(--silver-mist);
+  font-size: 0.9rem;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN
+   =================================== */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .navigation {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .hero-heading {
+    font-size: 2.2rem;
+  }
+  
+  .hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+  }
+  
+  .services-grid,
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ref-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form {
+    padding: 2rem;
+  }
+}
+
+/* ===================================
+   UTILITY ANIMATIONS
+   =================================== */
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(107, 70, 193, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.6);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
